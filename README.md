@@ -187,6 +187,22 @@ void MOSTRAR_RESULTADO(void)
 ```
 # DESCRICION DEL CODIGO
 
+El programa inicia su ejecución en la función main(), donde se configuran los puertos y se llama a la función RUTINA(). La configuración de los puertos establece el puerto B como entrada y los puertos C y D como salidas. Esto permite recibir datos del usuario y mostrar el resultado en los LED o displays conectados.
+
+El usuario ingresa los operandos y la operación mediante botones o un teclado matricial, confirmando cada entrada con una pulsación en el botón de "Enter" (PORTBbits.RB4). Una vez capturados los valores, el programa ejecuta la operación seleccionada utilizando una estructura switch-case.
+
+Las funciones de operación (F_S(), F_R(), F_A(), F_O(), F_M(), F_D()) aplican sumas, restas, AND, OR, multiplicación y división sobre los operandos. Finalmente, la función MOSTRAR_RESULTADO() despliega el selector de la operación, los operandos y el resultado en el puerto D con retardos de 250 ms para permitir una correcta visualización secuencial.
+
+El código es eficiente y estructurado, permitiendo la manipulación de datos con una interfaz sencilla basada en botones o switches. Su implementación en un microcontrolador facilita su integración en aplicaciones como calculadoras básicas o sistemas de control digital con operaciones lógicas.
+
+
+
+
+
+
+
+
+
 
 
 
