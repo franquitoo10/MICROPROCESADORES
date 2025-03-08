@@ -184,3 +184,5 @@ void MOSTRAR_RESULTADO(void)
 
 }
 }
+```
+![image](https://github.com/user-attachments/assets/13a073b5-c9f6-4f70-8631-8109c82c7854)
