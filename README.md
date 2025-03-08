@@ -193,7 +193,17 @@ El usuario ingresa los operandos y la operación mediante botones o un teclado m
 
 Las funciones de operación (F_S(), F_R(), F_A(), F_O(), F_M(), F_D()) aplican sumas, restas, AND, OR, multiplicación y división sobre los operandos. Finalmente, la función MOSTRAR_RESULTADO() despliega el selector de la operación, los operandos y el resultado en el puerto D con retardos de 250 ms para permitir una correcta visualización secuencial.
 
+
 El código es eficiente y estructurado, permitiendo la manipulación de datos con una interfaz sencilla basada en botones o switches. Su implementación en un microcontrolador facilita su integración en aplicaciones como calculadoras básicas o sistemas de control digital con operaciones lógicas.
+
+ Descripción General del Código
+El código desarrollado en lenguaje C está diseñado para ejecutarse en un microcontrolador PIC utilizando el compilador XC8. Su propósito es realizar operaciones matemáticas y lógicas entre dos operandos ingresados a través del puerto B y mostrar los resultados en los puertos C y D.
+
+El programa se compone de varias funciones encargadas de la configuración de los puertos, la captura de datos de entrada y la ejecución de operaciones aritméticas y lógicas. Al inicio, se configuran los registros de entrada y salida a través de la función CONF_PUERTOS(), y se inicializan las variables a cero con BORRAR_BASURA(). Luego, en la función RUTINA(), se ejecuta un flujo que permite al usuario ingresar los operandos y la operación deseada.
+
+La lectura de los operandos se realiza a través de LEER_OPERANDO_1() y LEER_OPERANDO_2(), que capturan los valores de 4 bits del puerto B. La operación a ejecutar se obtiene con LEER_OPERACION(), que evalúa la entrada y llama a la función correspondiente (F_S(), F_R(), F_A(), F_O(), F_M(), F_D()). Posteriormente, la función MOSTRAR_RESULTADO() presenta los datos en el puerto D en un ciclo continuo.
+
+El código utiliza retardos (__delay_ms(50)) para evitar rebotes en la entrada y garantizar una lectura estable. Finalmente, el microcontrolador realiza la operación seleccionada y muestra los resultados a través de los puertos de salida.
 
 
 
