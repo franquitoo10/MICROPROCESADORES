@@ -216,7 +216,7 @@ Cómo primera parte por medio del dipswitch y el pulsador se envían los datos d
 
 cada vez que se realiza una de las acciones mencionadas anteriormente estás se van a ver reflejadas en los leds es decir en los 8 leds de la izquierda se mostrará el primer valor ingresado este se muestra por unos segundos dependiendo del programa para después dar paso a la muestra del segundo valor en cambio con los leds del lado derecho en estos siempre se va a estar registrado el tipo de operador que se eligió durante la ejecución del primer calculo y el resultado de este cálculo se muestra en los leds del lado izquierdo como última instancia
 
-# LA PARTE DE IMGEN DEL MONTAJE Y DESCRIPCION DEL MONTAJE LA REALIZO DAVID SIERRA SOLO QUE POR PROBLEMAS CON SU COMPUTADOR NO PUDO SUBIR NADA 
+### LA PARTE DE IMAGEN DEL MONTAJE Y DESCRIPCION DEL MONTAJE LA REALIZO DAVID SIERRA SOLO QUE POR PROBLEMAS CON SU COMPUTADOR NO PUDO SUBIR NADA 
 
 
 
