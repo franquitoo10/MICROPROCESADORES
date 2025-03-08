@@ -1,9 +1,9 @@
-## MICROPROCESADORES
-# PIC18F45K22
+# MICROPROCESADORES
+## PIC18F45K22
 
 GRUPO: JHON FERNANDO FRANCO CALVO, SERGIO STIVEN CAICEDO GUIZA, DAVID FERNANDO SIERRA ESTUPIÑAN
 
-# CODIGO
+## CODIGO
 
 ```javascript
 #include <xc.h>
@@ -185,7 +185,7 @@ void MOSTRAR_RESULTADO(void)
 }
 }
 ```
-# DESCRICION DEL CODIGO
+## DESCRICION DEL CODIGO
 
 El programa inicia su ejecución en la función main(), donde se configuran los puertos y se llama a la función RUTINA(). La configuración de los puertos establece el puerto B como entrada y los puertos C y D como salidas. Esto permite recibir datos del usuario y mostrar el resultado en los LED o displays conectados.
 
@@ -207,7 +207,16 @@ El código utiliza retardos (__delay_ms(50)) para evitar rebotes en la entrada y
 
 
 
+## IMAGEN DEL MONTAJE
+![image](https://github.com/user-attachments/assets/24a18bce-ecea-4d8c-bac7-90a500869bc1)
 
+## DESCRIPCION DE EL MONTAJE
+
+Cómo primera parte por medio del dipswitch y el pulsador se envían los datos de la calculadora ALU tanto los dos valores de la operación y el operador es decir en el dipswitch se ingresa el primer valor y luego se oprime el pulsador para que así esté valor quede guardado luego se ingresa el tipo de operador por en dipswitch y se oprime nuevamente el pulsador para que se guarde y por último se ingresa el valor dos y se oprime nuevamente el pulsador para que se guarde.
+
+cada vez que se realiza una de las acciones mencionadas anteriormente estás se van a ver reflejadas en los leds es decir en los 8 leds de la izquierda se mostrará el primer valor ingresado este se muestra por unos segundos dependiendo del programa para después dar paso a la muestra del segundo valor en cambio con los leds del lado derecho en estos siempre se va a estar registrado el tipo de operador que se eligió durante la ejecución del primer calculo y el resultado de este cálculo se muestra en los leds del lado izquierdo como última instancia
+
+# LA PARTE DE IMGEN DEL MONTAJE Y DESCRIPCION DEL MONTAJE LA REALIZO DAVID SIERRA SOLO QUE POR PROBLEMAS CON SU COMPUTADOR NO PUDO SUBIR NADA 
 
 
 
